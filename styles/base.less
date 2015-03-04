@@ -1,0 +1,286 @@
+@import "syntax-variables";
+
+atom-text-editor, :host {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+atom-text-editor .gutter, :host .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+atom-text-editor .gutter .line-number.cursor-line, :host .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .gutter .line-number.cursor-line-no-selection, :host .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .wrap-guide, :host .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+atom-text-editor .indent-guide, :host .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+atom-text-editor .invisible-character, :host .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+atom-text-editor .search-results .marker .region, :host .search-results .marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+atom-text-editor .search-results .marker.current-result .region, :host .search-results .marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+atom-text-editor.is-focused .cursor, :host(.is-focused) .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line, :host(.is-focused) .line-number.cursor-line-no-selection, :host(.is-focused) .line.cursor-line {
+  background-color: rgba(165, 165, 165, 0.15);
+}
+
+.comment, .comment .punctuation {
+  color: #919191;
+}
+
+.comment.block.preprocessor {
+  color: #ADADAD;
+}
+
+.comment.documentation, .comment.block.documentation {
+  color: #BC670F;
+  background-color: #FFFDF7;
+}
+
+.invalid.deprecated {
+  color: #FFFFFF;
+  background-color: #990000;
+}
+
+.invalid.illegal {
+  color: #F9F2CE;
+  background-color: #F93232;
+}
+
+.keyword.operator {
+  color: #352de3;
+}
+
+.keyword, .storage {
+  color: #352de3;
+}
+
+.storage.type, .support.type {
+  color: #B4640B;
+}
+
+.constant.language, .variable.language {
+  color: #626FC9;
+}
+
+.variable, .support.variable {
+  color: #111111;
+}
+
+.variable .punctuation {
+  color: #111111;
+}
+
+.entity.name.function, .support.function, .entity {
+  color: #284181;
+}
+
+.entity.name.type, .entity.other.inherited-class, .support.class {
+  color: #bb28c7;
+}
+
+.entity.name.exception {
+  color: #F93232;
+}
+
+.entity.name.section {
+}
+
+.constant.numeric, .constant {
+  color: #dd3c2f;
+}
+
+.punctuation {
+  color: #111111;
+}
+
+.constant.character, .string {
+  color: #00A33F;
+}
+
+.string .punctuation {
+  color: #00A33F;
+}
+
+.constant.character.escape {
+  font-weight: bold;
+  background-color: rgba(251, 233, 173, 0.27);
+}
+
+.string.regexp {
+  color: #699D36;
+}
+
+.constant.numeric.line-number.bgr {
+  color: #111111;
+}
+
+.constant.other.symbol {
+  font-weight: bold;
+  background-color: #E8FFD5;
+}
+
+.string.unquoted.label.js {
+  color: #444444;
+}
+
+.punctuation.quasi.element {
+  color: #444444;
+}
+
+.string .source, .text .source {
+  color: #434343;
+}
+
+.meta.tag.sgml.doctype {
+  color: #7F7F7F;
+}
+
+.entity.name.tag {
+  color: #0072c8;
+}
+
+.meta.tag .string .punctuation {
+  color: #00A33F;
+}
+
+.punctuation.definition.tag {
+  color: #4F9FCF;
+}
+
+.constant.character.entity {
+  color: #111111;
+}
+
+.entity.other.attribute-name {
+  color: #0072c8;
+}
+
+.meta.tag .string.quoted, .meta.tag .string.quoted .constant.character.entity {
+  color: #00A33F;
+  background-color: #FFFFFF;
+}
+
+.meta.selector, .meta.selector .entity, .meta.selector .entity .punctuation, .entity.name.tag.css {
+  color: #3A77BF;
+}
+
+.meta.property-name, .support.type.property-name {
+  color: #D4430D;
+}
+
+.meta.property-value .constant.numeric, .meta.property-value .constant, .meta.property-value .keyword {
+  color: #43A202;
+}
+
+.markup.changed {
+  color: #111111;
+  background-color: #FFFFDD;
+}
+
+.markup.deleted {
+  color: #111111;
+  background-color: #FFDDDD;
+}
+
+.markup.italic {
+  font-style: italic;
+}
+
+.markup.error {
+  color: #F9F2CE;
+  background-color: #F93232;
+}
+
+.markup.inserted {
+  color: #111111;
+  background-color: #DDFFDD;
+}
+
+.markup.output, .markup.raw {
+  color: #7F7F7F;
+}
+
+.markup.prompt {
+  color: #555555;
+}
+
+.markup.heading {
+  font-weight: bold;
+}
+
+.markup.bold {
+  font-weight: bold;
+}
+
+.markup.traceback {
+  color: #F93232;
+}
+
+.markup.underline {
+  text-decoration: underline;
+}
+
+.meta.diff.range, .meta.diff.index, .meta.separator {
+  color: #434343;
+  background-color: #EAF2F5;
+}
+
+.meta.diff.header.from-file {
+  color: #434343;
+  background-color: #FFDDDD;
+}
+
+.meta.diff.header.to-file {
+  color: #434343;
+  background-color: #DDFFDD;
+}
+
+.bracket.default {
+  color: #6E6B1E;
+  background-color: rgba(243, 237, 66, 0.5);
+}
+
+.bracket.tag {
+  background-color: #71aedb;
+}
+
+.sublimelinter.gutter-mark {
+  color: #FFFFFF;
+}
+
+.sublimelinter.mark.error {
+  color: #DA2000;
+}
+
+.sublimelinter.mark.warning {
+  color: #EDBA00;
+}
