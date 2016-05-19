@@ -1,11 +1,11 @@
 {
   "name": "licht-theme",
   "theme": "syntax",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A comfortable light theme for atom",
   "repository": "https://github.com/cpojer/licht-theme",
   "license": "MIT",
   "engines": {
-    "atom": ">=0.174.0 <2.0.0"
+    "atom": ">=1.1.0"
   }
 }
