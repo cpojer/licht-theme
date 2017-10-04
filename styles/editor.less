@@ -39,11 +39,11 @@ atom-text-editor {
     background-color: @syntax-wrap-guide-color;
   }
 
-  .gutter-container {
-    margin-right: 4px;
-  }
-
   .gutter {
+    &.line-numbers {
+      margin-right: 4px;
+    }
+
     .line-number {
       color: @syntax-gutter-text-color;
       -webkit-font-smoothing: antialiased;
@@ -59,21 +59,6 @@ atom-text-editor {
       .icon-right {
         display: none;
         color: @syntax-text-color;
-      }
-    }
-
-    &:not(.git-diff-icon) .line-number.git-line-removed {
-      &.git-line-removed::before {
-        bottom: -3px;
-      }
-      &::after {
-        content: "";
-        position: absolute;
-        left: 0px;
-        bottom: 0px;
-        width: 25px;
-        border-bottom: 1px dotted fade(@syntax-color-removed, 50%);
-        pointer-events: none;
       }
     }
   }
