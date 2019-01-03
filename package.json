@@ -5,7 +5,21 @@
   "description": "A comfortable light theme for atom",
   "repository": "https://github.com/cpojer/licht-theme",
   "license": "MIT",
+  "publisher": "cpojer",
   "engines": {
-    "atom": ">=1.1.0"
+    "atom": ">=1.1.0",
+    "vscode": "^1.30.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Licht Theme",
+        "uiTheme": "vs",
+        "path": "./licht.json"
+      }
+    ]
   }
 }
