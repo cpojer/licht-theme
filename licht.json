@@ -2,12 +2,13 @@
   "name": "Licht",
   "colors": {
     "editor.background": "#fffefc",
-    "editor.findMatchBackground": "#C2E8FF",
-    "editor.findMatchHighlightBackground": "#C2E8FF50",
+    "editor.findMatchBackground": "#FFE792",
+    "editor.findMatchHighlightBackground": "#FFE79250",
     "editor.foreground": "#111111",
-    "editor.inactiveSelectionBackground": "#EDEDED",
+    "editor.inactiveSelectionBackground": "#C2E8FF30",
     "editor.lineHighlightBackground": "#A5A5A520",
     "editor.selectionBackground": "#C2E8FF",
+    "editor.selectionHighlightBackground": "#C2E8FF50",
     "editorCursor.foreground": "#3B68FC",
     "editorLineNumber.activeForeground": "#111111",
     "editorLineNumber.foreground": "#ADADAD",
@@ -273,7 +274,14 @@
       "name": "CSS: Property Names",
       "scope": ["meta.property-name", "support.type.property-name"],
       "settings": {
-        "foreground": "#D4430D"
+        "foreground": "#111111"
+      }
+    },
+    {
+      "name": "JSON: Property Names",
+      "scope": ["meta.property-name.json", "support.type.property-name.json"],
+      "settings": {
+        "foreground": "#00A33F"
       }
     },
     {
