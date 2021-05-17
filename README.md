@@ -16,3 +16,9 @@ Load the `.tmTheme` file from this repository in Sublime Text and set it as your
 Install the [licht-theme Atom extension](https://atom.io/themes/licht-theme)
 
 ![licht-theme-atom](./screenshots/licht-atom.png)
+
+## How to publish
+
+```bash
+vsce package --baseContentUrl https://github.com/cpojer/licht-theme --baseImagesUrl https://raw.githubusercontent.com/cpojer/licht-theme/master/
+```

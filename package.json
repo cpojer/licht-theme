@@ -5,7 +5,7 @@
   "description": "A comfortable light theme for VSCode, SublimeText, Atom and TextMate.",
   "repository": "git@github.com:cpojer/licht-theme.git",
   "license": "MIT",
-  "publisher": "cpojer",
+  "publisher": "cnakazawa",
   "engines": {
     "atom": ">=1.1.0",
     "vscode": "^1.30.0"
