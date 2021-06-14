@@ -12,7 +12,9 @@
     "editorCursor.foreground": "#3B68FC",
     "editorLineNumber.activeForeground": "#111111",
     "editorLineNumber.foreground": "#ADADAD",
-    "editorWhitespace.foreground": "#E0E0E0"
+    "editorWhitespace.foreground": "#E0E0E0",
+    "quickInputList.focusForeground": "#111",
+    "quickInputList.focusBackground": "#C2E8FF50"
   },
   "tokenColors": [
     {
