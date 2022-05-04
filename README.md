@@ -2,7 +2,7 @@
 
 ## VSCode
 
-Install the [licht-theme VSCode extension](https://marketplace.visualstudio.com/items?itemName=cpojer.licht-theme)
+Install the [licht-theme VSCode extension](https://marketplace.visualstudio.com/items?itemName=cnakazawa.licht-theme)
 
 ![licht-theme-vscode](./screenshots/licht-vscode.png)
 
