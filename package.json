@@ -1,11 +1,12 @@
 {
   "name": "licht-theme",
   "theme": "syntax",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "description": "A comfortable light theme for VSCode, SublimeText, Atom and TextMate.",
   "repository": "git@github.com:cpojer/licht-theme.git",
   "license": "MIT",
   "publisher": "cnakazawa",
+  "icon": "licht.png",
   "engines": {
     "atom": ">=1.1.0",
     "vscode": "^1.30.0"
