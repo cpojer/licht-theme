@@ -6,6 +6,8 @@ Install the [licht-theme VSCode extension](https://marketplace.visualstudio.com/
 
 ![licht-theme-vscode](./screenshots/licht-vscode.png)
 
+If you like this theme, check out [`dunkel-theme`](https://github.com/cpojer/dunkel-theme).
+
 ## Sublime Text
 
 Load the `.tmTheme` file from this repository in Sublime Text and set it as your color theme.
