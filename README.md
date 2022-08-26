@@ -1,8 +1,8 @@
 # licht theme
 
-## VSCode
+## VS Code
 
-Install the [licht-theme VSCode extension](https://marketplace.visualstudio.com/items?itemName=cnakazawa.licht-theme).
+Install the [licht-theme VS Code extension](https://marketplace.visualstudio.com/items?itemName=cnakazawa.licht-theme).
 
 ![licht-theme-vscode](./screenshots/licht-vscode.png)
 
