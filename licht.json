@@ -9,6 +9,7 @@
     "editor.lineHighlightBackground": "#a5a5a520",
     "editor.selectionBackground": "#c2e8ff",
     "editor.selectionHighlightBackground": "#c2e8ff50",
+    "editor.wordHighlightBackground": "#c2e8ff30",
     "editorBracketHighlight.foreground1": "#111111",
     "editorBracketHighlight.foreground2": "#284181",
     "editorBracketHighlight.foreground3": "#626fc9",
@@ -20,11 +21,16 @@
     "editorLineNumber.foreground": "#adadad",
     "editorWhitespace.foreground": "#e0e0e0",
     "focusBorder": "#3d87f5",
+    "list.activeSelectionBackground": "#c2e8ff50",
+    "list.activeSelectionForeground": "#111",
     "list.focusHighlightForeground": "#0066bf",
+    "menu.background": "#f3f3f3",
     "quickInputList.focusBackground": "#c2e8ff50",
     "quickInputList.focusForeground": "#111111",
     "statusBar.background": "#3d87f5",
-    "statusBarItem.remoteBackground": "#3d87f5"
+    "statusBarItem.remoteBackground": "#3d87f5",
+    "textLink.activeForeground": "#3d87f5",
+    "textLink.foreground": "#3d87f5"
   },
   "tokenColors": [
     {
